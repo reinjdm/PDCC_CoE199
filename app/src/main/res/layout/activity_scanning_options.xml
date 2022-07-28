@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Scanning"
+    android:background="@color/white">
+
+
+    <Button
+        android:id="@+id/ble"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:background="@color/teal_700"
+        android:onClick="chooseBLE"
+        android:text="BLE"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/wifi"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@color/teal_700"
+        android:onClick="chooseWifi"
+        android:text="WiFi"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/hybrid"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@color/teal_700"
+        android:onClick="chooseHybrid"
+        android:text="BLE-WiFi"
+        android:textSize="25dp" />
+
+
+
+
+</LinearLayout>

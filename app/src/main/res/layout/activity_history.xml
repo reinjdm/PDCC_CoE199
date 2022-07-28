@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+
+    <EditText
+        android:id="@+id/idEdtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/idEdtCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtName"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:hint="Enter Contact Number"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/idEdtTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtCon"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:hint="Enter Temperature"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/idEdtLoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtTemp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:hint="Enter Location"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/idCurTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtLoc"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:hint="Time Stamp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/idBtnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idCurTime"
+        android:layout_margin="10dp"
+        android:text="Add " />
+
+    <Button
+        android:id="@+id/idBtnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idCurTime"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/idBtnAdd"
+        android:text="Save " />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRVHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/idBtnAdd"
+        android:background="@color/white"/>
+
+</RelativeLayout>
+

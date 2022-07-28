@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WiFi"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <Button
+        android:id="@+id/startScan"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:background="@android:color/holo_red_light"
+        android:text="START SCAN"/>
+    <TextView
+        android:id="@+id/wifiap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Access Point"
+        android:layout_gravity="center"
+        android:background="@color/teal_200"
+        android:textAlignment="center"
+        android:textColor="#01579B"
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+
+    <ListView
+        android:id="@+id/wifiList"
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        android:layout_weight="0.97"/>
+
+
+
+
+</LinearLayout>

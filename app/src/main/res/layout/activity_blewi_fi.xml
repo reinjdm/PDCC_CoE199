@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BLEWiFi"  android:orientation="vertical"
+    android:background="@color/white">
+
+    <Button
+        android:id="@+id/startBScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/teal_700"
+        android:text="@string/start_ble_scan"
+        tools:ignore="TextContrastCheck" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:fillViewport="true"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/startWScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/teal_700"
+        android:text="@string/start_wifi_scan"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/AP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Access Point"
+        android:layout_gravity="center"
+        android:background="@color/teal_200"
+        android:textAlignment="center"
+        android:textColor="#01579B"
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+    <ListView
+        android:id="@+id/wifiList"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"/>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:fillViewport="true"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+
+
+</LinearLayout>

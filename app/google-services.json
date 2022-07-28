@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "571270428812",
+    "project_id": "coe199",
+    "storage_bucket": "coe199.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571270428812:android:45e305766004db741ae3a9",
+        "android_client_info": {
+          "package_name": "com.example.peopledensitycheckerforcovid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571270428812-4q4cm4ja98oiffio2c7ej36kifvmsmav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7O_YxyUpn6H4QV9gFQpuS4h30tHuNZjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571270428812-4q4cm4ja98oiffio2c7ej36kifvmsmav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
